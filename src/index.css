@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Rubik:wght@500&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Kablammo', cursive; For  */ 
+    /* font-family: 'Roboto', sans-serif;  For Navigation  */
+    /* font-family: 'Fugaz One', cursive; For Footer */
+    /* font-family: 'Chewy', cursive;  For Texts */
+    /* font-family: 'Ubuntu', sans-serif;  For Paragraph */
+}
+
+.header{
+    width: 100%;
+    line-height: 100px;
+    display: flex;
+    justify-content: start;
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding-left: 50px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 5px 3px 15px -5px rgba( 0, 0, 0, 0.9); 
+}
+
+.main_note{
+    width: 500px;
+    padding: 15px 10px 5px 10px;
+    margin: 20px auto;
+}
+
+.my_notes h1{
+    color: #34495e;
+    font-family: 'Chewy', cursive;
+}
+
+.my_notes p{
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+form{
+    min-height: 50px;
+    color: #ecf0f1;
+    padding: 15px 10px 5px 10px;
+    box-shadow: 3px 5px 15px -5px rgba(0, 0, 0, 0.4);    
+    border-radius: 10px;
+    position: relative;
+}
+
+input{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+textarea{
+    width: 100%;
+    line-height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.MuiSvgIcon-root{
+    width: 2rem;
+    height: 2rem;
+    position: absolute;
+    bottom: -28px;
+    font-size: 3rem;
+    left: 430px;
+    cursor: pointer;
+    background-color: #ffffff !important;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.4);    
+    border-radius: 50% !important;
+}
+
+.MuiSvgIcon-root.plus_sign{
+    font-size: 45px !important;
+    font-weight: 900;
+    color: #f4b400;
+    cursor: pointer;
+    z-index: 222;
+    background: transparent;
+}  
+
+.MuiSvgIcon-root:hover{
+    background-color: #f4b400 !important;
+}
+
+.MuiSvgIcon-root:hover.plus_sign {
+    color: #fff;
+    background: transparent;
+}
+
+.note{
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  margin-left: 50px;
+  float: left;
+}
+
+.note h1{
+  font-size: 1.1em;
+  margin-bottom:6px;
+  font-family: 'Chewy', cursive;
+} 
+
+.note p{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note .btn{
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f4b400;
+  border: none;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.deleteIcon{
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  width: 0.7em;
+  height: 0.7em;
+}
+
+
+.note .btn:hover {
+  background-color: #f5ba13;
+}
+
+.note .btn:hover .deleteIcon{
+  color: #e81212;
+}
+footer {
+    position: absolute;
+    bottom: -100%;
+    width: 100%;
+    height: 28%;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+
+  }  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .footer-section {
+    width: 30%;
+  }
+  
+  h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+    color: #f4b400;
+  }
+  
+  p {
+    font-size: 15px;
+    font-family: 'Ubuntu'
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu'
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .social-media p{
+    margin-bottom: 5px;
+  }
+  
+  .social-media a {
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media a:hover {
+    color: #f4b400; /* Replace with your desired hover color */
+  }
+  
+  .footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .footer-bottom span{
+    color: #f4b400;
+  }
+  
+  .footer-links {
+    display: flex;
+  }
+  
+  .footer-links li {
+    margin-right: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: #f4b400; /* Replace with your desired hover color */
+  }
+  
